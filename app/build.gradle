@@ -5,7 +5,8 @@ apply plugin: 'realm-android'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion '28.0.3'
+   // To remove
+    //buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "eu.droogers.smsmatrix"
         minSdkVersion 23
@@ -34,6 +35,7 @@ android {
 }
 
 dependencies {
+
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.preference:preference:1.1.0'
 
